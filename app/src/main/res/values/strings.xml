@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trashub</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_input">Siapa Namamu?</string>
+    <string name="message_homepage1">"Sampah dapat mencemari lingkungan jika tidak dikelola dengan baik. Daur ulang dan pengelolaan yang efisien sangat penting untuk menjaga keberlanjutan lingkungan."</string>
+</resources>
