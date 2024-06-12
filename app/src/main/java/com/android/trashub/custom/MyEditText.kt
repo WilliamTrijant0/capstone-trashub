@@ -10,7 +10,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
-import com.android.storyapp.R
+import com.android.trashub.R
 
 open class MyEditText : AppCompatEditText, View.OnTouchListener {
 

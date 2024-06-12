@@ -11,7 +11,8 @@
         android:id="@+id/imageAnimation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:lottie_rawRes="@raw/trash2"
+        android:layout_marginTop="20dp"
+        app:lottie_rawRes="@raw/homepage"
         app:lottie_loop="true"
         app:lottie_autoPlay="true"
         tools:ignore="MissingConstraints"
@@ -33,5 +34,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageAnimation"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGeser"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/masuk"
+        style="@style/TextContent.TitleMedium"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:backgroundTint="@color/medium_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

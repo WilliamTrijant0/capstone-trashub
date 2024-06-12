@@ -4,7 +4,7 @@ import android.content.Context
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.AttributeSet
-import com.android.storyapp.R
+import com.android.trashub.R
 
 class MyNameCustom : MyEditText {
     constructor(context: Context) : super(context) {

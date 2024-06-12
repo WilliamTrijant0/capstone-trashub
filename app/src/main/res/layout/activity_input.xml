@@ -5,12 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_gradient_background">
+    android:background="@drawable/ic_gradient_background"
+    tools:context=".InputActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/imageAnimation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         app:lottie_rawRes="@raw/trash"
         app:lottie_loop="true"
         app:lottie_autoPlay="true"
@@ -31,8 +33,7 @@
         style="@style/TextContent.HeadlineMedium"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageAnimation"
-        tools:alpha="100" />
+        app:layout_constraintTop_toBottomOf="@+id/imageAnimation" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/nameLayout"
@@ -46,8 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
-        tools:alpha="100">
+        app:startIconDrawable="@drawable/ic_baseline_person_24">
 
         <com.android.storyapp.custom.MyNameCustom
             android:id="@+id/my_name_custom"
@@ -67,7 +67,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="16dp"
         android:alpha="0"
-        android:text="Lanjut"
+        android:text="@string/lanjut"
         style="@style/TextContent.TitleMedium"
         android:textSize="20sp"
         app:cornerRadius="10dp"
@@ -75,8 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameLayout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:alpha="100"/>
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineHorizontal"

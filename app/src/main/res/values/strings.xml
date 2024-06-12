@@ -1,8 +1,26 @@
 <resources>
     <string name="app_name">Trashub</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_kamera">Kamera</string>
+    <string name="title_akun">Akun</string>
     <string name="title_input">Siapa Namamu?</string>
     <string name="message_homepage1">"Sampah dapat mencemari lingkungan jika tidak dikelola dengan baik. Daur ulang dan pengelolaan yang efisien sangat penting untuk menjaga keberlanjutan lingkungan."</string>
+    <string name="masuk">Masuk</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="_3r">3R</string>
+    <string name="jenis_jenis_sampah">Jenis-Jenis Sampah</string>
+    <string name="informasi_sampah">Informasi Sampah</string>
+    <string name="organik">Organik</string>
+    <string name="unorganik">Anorganik</string>
+    <string name="B3">B3</string>
+    <string name="cd_switch_camera">Button to switch to front or rear camera</string>
+    <string name="cd_capture">Button to capture image</string>
+    <string name="avatar">avatar</string>
+    <string name="simpan">Simpan</string>
+    <string name="title1">Halo, nama aku Nizar</string>
+    <string name="title2">Halo, Nizar</string>
+    <string name="nama_sampah">Nama Sampah</string>
+    <string name="min_length_name">Nama yang Anda masukkan kurang dari minimal karakter</string>
+    <string name="galeri">Galeri</string>
+    <string name="kamera">Kamera</string>
 </resources>

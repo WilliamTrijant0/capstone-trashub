@@ -24,4 +24,5 @@
     <color name="colorText">#121212</color>
     <color name="colorTextSecondary">#292929</color>
     <color name="colorPrimaryVariant">#262168</color>
+    <color name="powder_blue">#B0E0E6</color>
 </resources>
