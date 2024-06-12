@@ -29,7 +29,7 @@ class HomeFragment : Fragment() {
         }
 
         binding.btn3R.setOnClickListener {
-            // Tambahkan aksi yang diinginkan di sini
+            findNavController().navigate(R.id.action_navigation_home_to_reduceFragment)
         }
 
         binding.btnInformasi.setOnClickListener {
